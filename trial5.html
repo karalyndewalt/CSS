@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Mixing and Matching</title>
+        <style>
+            body {
+                margin:0;
+                height: 400px;
+                width: 350px;
+            }
+            div {
+                height: 50%;
+                width: 100%;
+            }
+            .nested {
+                margin-top: 50px;
+                margin-left: 50px;
+                height: 100px;
+                width: 100px;
+                background-color: #000000;
+                display: inline-block;
+            }
+        
+            #redfish {
+                background-color: #ff0000;
+            }
+            #bluefish {
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="redfish">
+            <div class="nested"></div>
+            <div class="nested"></div>
+        </div>
+        <div id="bluefish">
+            <div class="nested"></div>
+            <div class="nested"></div>
+        </div>
+    </body>
+</html>
